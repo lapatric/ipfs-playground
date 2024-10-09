@@ -11,6 +11,6 @@ npm i
 # 2. Compile the code
 npx tsc
 
-# 3. Run the script
-node dist/ipfsScript.js
+# 3. Run the script (upload and download file)
+node dist/ipfsScript.js <source_file_path> <destination_file_path>
 ```
